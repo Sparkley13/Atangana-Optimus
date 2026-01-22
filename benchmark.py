@@ -123,7 +123,7 @@ def run_rigorous_benchmark(num_runs=5):
     plt.yscale("log")
     plt.xlabel("Époques")
     plt.ylabel("MSE (log)")
-    plt.title("Benchmark rigoureux : Adam vs AtanganaOptimus fractionnaire")
+    plt.title("Benchmark  : Adam vs AtanganaOptimus")
     plt.legend()
     plt.grid(True, which="both", alpha=0.3)
 
